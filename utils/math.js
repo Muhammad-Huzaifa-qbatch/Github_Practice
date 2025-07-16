@@ -2,4 +2,7 @@ function add(a, b) {
   return a + b;
 }
 
-module.exports = { add };
+function divide(a, b) {
+  return a / b;
+}
+module.exports = { add, divide };
